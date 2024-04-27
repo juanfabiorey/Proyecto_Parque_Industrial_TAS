@@ -1,0 +1,161 @@
+@import "../lib/normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+/* Global Variables */
+:root {
+   /* Font family */
+    --main-font: 'Montserrat', sans-serif;
+
+    /* Font weights */
+    --extralite: 200;
+    --lite: 300;
+    --regular: 400;
+    --medium: 500;
+    --semibold: 600;
+    --semibold-italic: 700 italic;
+    --bold: 700;
+    --extrabold: 800;
+
+    /* Color Palette */
+    --dark-jungle-green-color: #252525;
+    --tuna-color: #323C40;
+    --mineral-green-color: #495C63;
+    --cadet-grey-color: #8FA6B1;
+    --silver-sand-color: #C0C0C0;
+    --white-color: #FFFFFF;
+    --jade-green: #2FB35A;
+    --tan-color: #D9AE76;
+    --potters-clay-color: #8B5E34;
+}
+
+/* Font Variations */
+
+.extrabold-54--light {
+    font-size: 54px;
+    font-weight: var(--extrabold);
+    color: var(--white-color);
+}
+
+.bold-64--tan {
+    font-size: 60px;
+    font-weight: var(--bold);
+    color: var(--tan-color);
+}
+
+.bold-40--dark {
+    font-size: 40px;
+    font-weight: var(--bold);
+    color: var(--tuna-color);
+}
+
+.bold-40--light {
+    font-size: 24px;
+    font-weight: var(--bold);
+    color: var(--white-color);
+}
+
+.bold-24--dark {
+    font-size: 24px;
+    font-weight: var(--bold);
+    color: var(--tuna-color);
+}
+
+.bold-20--dark {
+    font-size: 20px;
+    font-weight: var(--bold);
+    color: var(--tuna-color);
+}
+
+.bold-16--light {
+    font-size: 16px;
+    font-weight: var(--bold);
+    color: var(--white-color);
+}
+
+.bold-16--dark {
+    font-size: 16px;
+    font-weight: var(--bold);
+    color: var(--tuna-color);
+}
+
+.semibold-48--light {
+    font-size: 48px;
+    font-weight: var(--semibold);
+    color: var(--white-color);
+}
+
+
+.semibold-italic-16--dark {
+    font-size: 16px;
+    font-weight: var(--semibold-italic);
+    color: var(--tuna-color);
+}
+
+.medium-20--dark {
+    font-size: 20px;
+    font-weight: var(--medium);
+    color: var(--tuna-color);
+}
+
+.medium-20--light {
+    font-size: 20px;
+    font-weight: var(--medium);
+    color: var(--white-color);
+}
+
+.medium-20--tan {
+    font-size: 20px;
+    font-weight: var(--medium);
+    color: var(--tan-color);
+}
+
+.medium-16--dark {
+    font-size: 16px;
+    font-weight: var(--medium);
+    color: var(--tuna-color);
+}
+
+.regular-20--dark {
+    font-size: 20px;
+    font-weight: var(--regular);
+    color: var(--tuna-color);
+}
+
+.regular-16--dark {
+    font-size: 16px;
+    font-weight: var(--regular);
+    color: var(--tuna-color);
+}
+
+/* List Item */
+li {
+    list-style-type: none;
+}
+
+/* Anchors */
+a {
+    text-decoration: none;
+}
+
+/* Call to actions */
+
+.cta__filled--tan {
+    text-transform: uppercase;
+}
+
+.cta__filled--green {
+    text-transform: uppercase;
+}
+
+.cta__outlined--tan {
+    text-transform: uppercase;
+}
+
+.cta__outlined--light {
+    text-transform: uppercase;
+}
+
+.cta__link--tan {
+    /* dummy property: value */
+}

@@ -1,0 +1,111 @@
+@import "globals.css";
+
+html {
+    font-family: var(--main-font);
+}
+
+body {
+    background-color: #8FA6B1;
+}
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+
+.hero {
+    /*height: 1140px;*/
+    /*width: 1920px;*/
+    /*background-image: url("../images/hero.png");*/
+}
+
+/* Header Section
+   ========================================================================== */
+
+.header {
+    /* dummy property: value */
+}
+
+.header-top-bar {
+    /* dummy property: value */
+}
+
+.header-top-bar__branding--white {
+    /* dummy property: value */
+}
+
+.header-top-bar__nav {
+    /* dummy property: value */
+}
+
+.header-top-bar__nav--right {
+    /* dummy property: value */
+}
+
+.header-top-bar__links-wrapper {
+    /* dummy property: value */
+}
+
+.nav-link {
+    /* dummy property: value */
+}
+
+.link {
+    text-transform: uppercase;
+}
+
+.link--active {
+    /* Dummy modifiers */
+}
+
+/* Float Description Section
+   -------------------------------------------------------------------------- */
+
+.float-description {
+    /* dummy property: value */
+}
+
+.float-description__title {
+    /* dummy property: value */
+}
+
+.float-description__decoration--right {
+    /* dummy property: value */
+}
+
+.float-description__subtitle {
+    /* dummy property: value */
+}
+
+.float-description-buttons-bar {
+    /* dummy property: value */
+}
+
+/* ==========================================================================
+   About Us Section
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+/**** PROJECT IN MIND SECTION ****/
+/**** OUR SOLUTIONS SECTION ****/
+/**** COUNTER SECTION ****/
+/**** TESTIMONIALS SECTION ****/
+/**** LATEST NEWS SECTION ****/
+/**** OUR CLIENTS SECTION ****/
+/**** MAP SECTION ****/
+/**** CONTACT INFO SECTION ****/
+/**** FOOTER SECTION ****/
+
+
+
+
+
+
+
+
