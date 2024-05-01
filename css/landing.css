@@ -1,52 +1,59 @@
 @import "globals.css";
 
-html {
-    font-family: var(--main-font);
-}
-
-body {
-    background-color: #8FA6B1;
-}
-
 /* ==========================================================================
    Hero Section
    ========================================================================== */
 
 .hero {
-    /*height: 1140px;*/
-    /*width: 1920px;*/
-    /*background-image: url("../images/hero.png");*/
+    /* dummy-property: value */
+    display: block;
+    background-image: url("../images/hero.png");
+    width: 1921px;
+    height: 1140px;
 }
 
 /* Header Section
    ========================================================================== */
 
 .header {
-    /* dummy property: value */
+    /* dummy-property: value */
+    display: flex;
+
 }
 
 .header-top-bar {
-    /* dummy property: value */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .header-top-bar__branding--white {
-    /* dummy property: value */
+    /* dummy-property: value */
 }
 
 .header-top-bar__nav {
-    /* dummy property: value */
+    display: flex;
+    flex-direction: column;
 }
 
 .header-top-bar__nav--right {
-    /* dummy property: value */
+    /* dummy-property: value */
 }
 
 .header-top-bar__links-wrapper {
-    /* dummy property: value */
+    display: flex;
+    background-color: var(--tan-color);
 }
 
 .nav-link {
-    /* dummy property: value */
+    width: 162px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .link {
@@ -54,36 +61,265 @@ body {
 }
 
 .link--active {
-    /* Dummy modifiers */
+    /* dummy-property: value */
 }
 
 /* Float Description Section
    -------------------------------------------------------------------------- */
 
 .float-description {
-    /* dummy property: value */
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 875px;
+    height: 475px;
+    position: absolute;
+    left: 235px;
+    top: 310px
 }
 
-.float-description__title {
-    /* dummy property: value */
+.float-description__title h3 {
+    padding-left: 86px;
+    border-left-width: 15px;
+    border-left-style: solid;
+    border-color: var(--tan-color);
+
 }
 
-.float-description__decoration--right {
-    /* dummy property: value */
+.float-description__decoration--left {
+    /*width: 18px;*/
+    /*height: 210px;*/
+    /*background-color: var(--tan-color);*/
 }
 
 .float-description__subtitle {
-    /* dummy property: value */
+    padding-left: 101px;
 }
 
 .float-description-buttons-bar {
-    /* dummy property: value */
+    padding-left: 360px;
+    padding-top: 40px;
 }
 
 /* ==========================================================================
    About Us Section
    ========================================================================== */
 
+.about-us {
+    width: 1920px;
+    height: 708px;
+    position: static;
+    background-image: url("../images/about-aerial.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-us__frame {
+    width: 682px;
+    height: 422px;
+    border: 11px solid var(--tan-color);
+    z-index: 1;
+}
+
+.about-us__photo {
+    width: 362px;
+    height: 600px;
+    z-index: 2;
+
+}
+
+.about-us__description {
+    width: 520px;
+    height: 434px;
+    background-color: var(--white-color);
+    z-index: 3;
+}
+
+.about-us__title {
+    /* dummy-property: value */
+}
+
+.about-us__text {
+    /* dummy-property: value */
+}
+
+/* ==========================================================================
+   Project in mind
+   ========================================================================== */
+
+.project-in-mind {
+    width: 1920px;
+    height: 283px;
+    background-color: var(--tan-color);
+    background-image: url("../images/crane.png");
+    background-repeat: no-repeat;
+    background-position-x: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-in-mind__texts {
+    /*padding-left: 240px;*/
+    /*padding-top: 35px;*/
+}
+
+.project-in-mind__button {
+    /* dummy-property: value */
+}
+
+/* ==========================================================================
+   Our Solutions Section
+   ========================================================================== */
+
+.our-solutions {
+    width: 1920px;
+    /*height: 1292px;*/
+    background-color: var(--white-color);
+}
+
+.our-solutions__wrapper {
+    /* dummy-property: value */
+}
+
+.our-solutions__title {
+    /* dummy-property: value */
+}
+
+.our-solutions__subtitle {
+    /* dummy-property: value */
+}
+
+/* Our Solutions Columns
+   -------------------------------------------------------------------------- */
+
+.our-solutions__columns {
+    /* dummy-property: value */
+}
+
+.our-solutions__column {
+    /* dummy-property: value */
+}
+
+.our-solutions__columns--ul {
+    /* dummy-property: value */
+}
+
+.our-solutions__columns--span {
+    /* dummy-property: value */
+}
+
+/* Our Solutions Cards
+   ========================================================================== */
+
+.our-solutions__cards {
+    /* dummy-property: value */
+}
+
+.our-solutions__cards--row {
+    /* dummy-property: value */
+}
+
+.our-solutions__cards--column {
+    /* dummy-property: value */
+}
+
+.our-solutions__card--half {
+    /* dummy-property: value */
+}
+
+.our-solutions__card--full {
+    /* dummy-property: value */
+}
+
+.our-solutions__hover-overlay {
+    /* dummy-property: value */
+}
+
+/* ==========================================================================
+   Counters Section
+   ========================================================================== */
+
+.counters {
+    background-color: var(--white-color);
+    background-image: url("../images/counter-background.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.counters__wrapper {
+    /* dummy-property: value */
+}
+
+.counters__card {
+    /* dummy-property: value */
+}
+
+.counters__icon {
+    height: 60px;
+    width: 60px;
+    filter: opacity(35%);
+}
+
+/* ==========================================================================
+   Counters Section
+   ========================================================================== */
+
+.testimonials {
+    background-color: var(--cinder-color);
+    /*background-image: url("../images/testimonials-planisphere.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*mix-blend-mode: darken ;*/
+}
+
+
+/* ==========================================================================
+   Latest News Section
+   ========================================================================== */
+
+.latest-news {
+    /* dummy-property: value */
+}
+
+/* ==========================================================================
+   Our Clients Section
+   ========================================================================== */
+
+.our-clients {
+    /* dummy-property: value */
+}
+
+/* ==========================================================================
+   Mini Map Section
+   ========================================================================== */
+
+.you-are-here {
+    /* dummy-property: value */
+}
+
+
+/* ==========================================================================
+   Contact Info Section
+   ========================================================================== */
+
+.contact-info {
+    /* dummy-property: value */
+}
+
+
+/* ==========================================================================
+   Footer Section
+   ========================================================================== */
+
+.footer {
+    /* dummy-property: value */
+}
+
+.back-to-top__button {
+    /* dummy-property: value */
+}
 
 
 
@@ -92,10 +328,7 @@ body {
 
 
 
-/**** PROJECT IN MIND SECTION ****/
-/**** OUR SOLUTIONS SECTION ****/
-/**** COUNTER SECTION ****/
-/**** TESTIMONIALS SECTION ****/
+
 /**** LATEST NEWS SECTION ****/
 /**** OUR CLIENTS SECTION ****/
 /**** MAP SECTION ****/

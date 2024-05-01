@@ -1,8 +1,13 @@
+/* ==========================================================================
+   Imports
+   ========================================================================== */
 @import "../lib/normalize.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
 
-/* Global Variables */
+/* ==========================================================================
+   Root Variables
+   ========================================================================== */
 :root {
    /* Font family */
     --main-font: 'Montserrat', sans-serif;
@@ -18,6 +23,7 @@
     --extrabold: 800;
 
     /* Color Palette */
+    --cinder-color: #0A1119;
     --dark-jungle-green-color: #252525;
     --tuna-color: #323C40;
     --mineral-green-color: #495C63;
@@ -29,7 +35,21 @@
     --potters-clay-color: #8B5E34;
 }
 
-/* Font Variations */
+/* ==========================================================================
+   Main Properties
+   ========================================================================== */
+
+html {
+    font-family: var(--main-font);
+}
+
+body {
+    background-color: #e1e1e1;
+}
+
+/* ==========================================================================
+   Font Variations
+   ========================================================================== */
 
 .extrabold-54--light {
     font-size: 54px;
@@ -67,6 +87,18 @@
     color: var(--tuna-color);
 }
 
+.bold-20--light {
+    font-size: 20px;
+    font-weight: var(--bold);
+    color: var(--white-color);
+}
+
+.bold-18--light {
+    font-size: 18px;
+    font-weight: var(--bold);
+    color: var(--white-color);
+}
+
 .bold-16--light {
     font-size: 16px;
     font-weight: var(--bold);
@@ -85,6 +117,17 @@
     color: var(--white-color);
 }
 
+.semibold-20--light {
+    font-size: 20px;
+    font-weight: var(--medium);
+    color: var(--white-color);
+}
+
+.semibold-16--light {
+    font-size: 16px;
+    font-weight: var(--semibold);
+    color: var(--white-color);
+}
 
 .semibold-italic-16--dark {
     font-size: 16px;
@@ -116,6 +159,12 @@
     color: var(--tuna-color);
 }
 
+.medium-16--light {
+    font-size: 16px;
+    font-weight: var(--medium);
+    color: var(--white-color);
+}
+
 .regular-20--dark {
     font-size: 20px;
     font-weight: var(--regular);
@@ -128,7 +177,9 @@
     color: var(--tuna-color);
 }
 
-/* List Item */
+/* ==========================================================================
+   Common Elements
+   ========================================================================== */
 li {
     list-style-type: none;
 }
@@ -138,24 +189,49 @@ a {
     text-decoration: none;
 }
 
-/* Call to actions */
+/* ==========================================================================
+   Call to actions & Buttons
+   ========================================================================== */
 
 .cta__filled--tan {
+    padding: 15px 55px;
+    border-radius: 4px;
+    background-color: var(--tan-color);
     text-transform: uppercase;
+    color: var(--white-color);
 }
 
 .cta__filled--green {
+    padding: 15px 35px;
+    border-radius: 4px;
+    background-color: var(--jade-green);
     text-transform: uppercase;
+    color: var(--white-color);
+
+    margin-right: 30px;
 }
 
 .cta__outlined--tan {
+
+
     text-transform: uppercase;
 }
 
 .cta__outlined--light {
+    padding: 15px 35px;
+    border: 2px solid var(--white-color);
     text-transform: uppercase;
+
+    margin-left: 220px;
 }
 
 .cta__link--tan {
+    /* dummy property: value */
+}
+
+/* ==========================================================================
+   Uncategorized Visual Elements
+   ========================================================================== */
+.standard-separator {
     /* dummy property: value */
 }
