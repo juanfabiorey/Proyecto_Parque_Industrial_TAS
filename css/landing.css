@@ -5,7 +5,6 @@
    ========================================================================== */
 
 .hero {
-    /* dummy-property: value */
     display: block;
     background-image: url("../images/hero.png");
     width: 1921px;
@@ -16,7 +15,6 @@
    ========================================================================== */
 
 .header {
-    /* dummy-property: value */
     display: flex;
 
 }
@@ -195,7 +193,8 @@
    -------------------------------------------------------------------------- */
 
 .our-solutions__columns {
-    /* dummy-property: value */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .our-solutions__column {
@@ -213,7 +212,7 @@
 /* Our Solutions Cards
    ========================================================================== */
 
-.our-solutions__cards {
+.our-solutions__cards-wrapper {
     /* dummy-property: value */
 }
 
@@ -222,19 +221,34 @@
 }
 
 .our-solutions__cards--column {
-    /* dummy-property: value */
+    display: flex;
+    justify-content: space-between;
 }
 
 .our-solutions__card--half {
-    /* dummy-property: value */
+    max-width: 364px;
 }
 
 .our-solutions__card--full {
-    /* dummy-property: value */
+    max-width: 754px;
+}
+
+.our-solutions__card-content {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+/* BUSCAR UN MEJOR NOMBRE*/
+.title_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .our-solutions__hover-overlay {
-    /* dummy-property: value */
+    display: none;
 }
 
 /* ==========================================================================
@@ -248,12 +262,13 @@
     background-position: right bottom;
 }
 
-.counters__wrapper {
-    /* dummy-property: value */
+.counters__cards--wrapper {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .counters__card {
-    /* dummy-property: value */
+    max-width: 328px;
 }
 
 .counters__icon {
@@ -263,23 +278,140 @@
 }
 
 /* ==========================================================================
-   Counters Section
+   Testimonials Section
    ========================================================================== */
 
 .testimonials {
+    height: 707px;
     background-color: var(--cinder-color);
-    /*background-image: url("../images/testimonials-planisphere.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*mix-blend-mode: darken ;*/
+    background-image: url("../images/dot-planisphere-5.png");
+    background-repeat: repeat-x;
+    background-position: left;
 }
 
+.testimonials__wrapper {
+    /* dummy-property: value */
+}
+
+.testimonials__title {
+    /* dummy-property: value */
+}
+
+.testimonials__subtitle {
+    /* dummy-property: value */
+}
+
+.testimonials__columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testimonials__left-arrow {
+    /* dummy-property: value */
+}
+
+.testimonials__right-arrow {
+    /* dummy-property: value */
+}
+
+.testimonials__card {
+    border-right: 2px solid var(--tuna-color);
+}
+
+.testimonials__quote--top {
+    /* dummy-property: value */
+}
+
+.testimonials__quote--bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+.testimonials__text {
+}
+
+.testimonials__person {
+    display: flex;
+}
+
+.testimonials__person-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.testimonials__photo {
+    border-radius: 50%;
+    border: 5px solid var(--white-color);
+}
+
+.testimonials__swiper-bullets {
+    display: flex;
+    justify-content: center;
+}
 
 /* ==========================================================================
    Latest News Section
    ========================================================================== */
 
 .latest-news {
+    width: 1920px;
+    height: 940px;
+    background-color: var(--silver-sand-color);
+    background-image: url("../images/latest-news-background-pattern.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position-x: 60px;
+    background-position-y: 60px;
+
+}
+
+.latest-news__wrapper {
+    /* dummy-property: value */
+}
+
+.latest-news__title {
+    /* dummy-property: value */
+}
+
+.latest-news__subtitle {
+    /* dummy-property: value */
+}
+
+.latest-news__cards-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.latest-news__card {
+    /* dummy-property: value */
+}
+
+.latest-news__card--picture {
+    /* dummy-property: value */
+}
+
+.latest-news__card--date {
+    /* dummy-property: value */
+}
+
+.latest-news__title {
+    /* dummy-property: value */
+}
+
+.latest-news__card--lead {
+    /* dummy-property: value */
+}
+
+.latest-news__card--continue-reading {
+    /* dummy-property: value */
+}
+
+.latest-news__buttons-wrapper {
+    /* dummy-property: value */
+}
+
+.latest-news__all-news-button {
     /* dummy-property: value */
 }
 
@@ -288,7 +420,44 @@
    ========================================================================== */
 
 .our-clients {
+    height: 493px;
+}
+
+.our-solutions__wrapper {
     /* dummy-property: value */
+}
+
+.our-clients__title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.our-clients__row {
+    filter: saturate(0) opacity(65%);
+    margin-top: 24px;
+}
+
+.our-clients__columns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.our-clients__logo {
+    /* dummy-property: value */
+}
+
+.our-clients__buttons-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.our-clients__all-clients-button {
+    /* dummy-property: value */
+}
+
+.our-clients__button {
+    margin-top: 20px;
 }
 
 /* ==========================================================================
@@ -296,15 +465,54 @@
    ========================================================================== */
 
 .you-are-here {
-    /* dummy-property: value */
+    height: 700px;
+    background-image: url("../images/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.you-are-here__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.you-are-here__icon {
+    padding-top: 200px;
+}
+
+.you-are-here__text {
+    padding-top: 38px;
+}
+
+.you-are-here__button {
+    margin-top: 90px;
+}
 
 /* ==========================================================================
    Contact Info Section
    ========================================================================== */
 
 .contact-info {
+    height: 165px;
+    background-color: var(--tan-color);
+}
+
+.contact-info__cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-info__card {
+    width: 394px;
+    height: 152px;
+    text-align: center;
+    margin-top: 56px;
+    border-radius: 12px;
+    background-color: var(--white-color);
+}
+
+.contact-info__content {
     /* dummy-property: value */
 }
 
@@ -315,12 +523,168 @@
 
 .footer {
     /* dummy-property: value */
+    height: 714px;
+    padding-top: 172px;
+    background-color: var(--tuna-color);
+    background-image: url("../images/footer-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.back-to-top__button {
+.footer__wrapper {
+    /* dummy-property: value */
+
+}
+
+/* Footer Columns
+   ========================================================================== */
+
+.footer__columns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Footer Branding/Socials Column
+   -------------------------------------------------------------------------- */
+
+.footer__institution {
     /* dummy-property: value */
 }
 
+.footer__branding--white {
+    /* dummy-property: value */
+}
+
+.footer__strapline {
+    /* dummy-property: value */
+}
+
+.footer__socials--row {
+    display: flex;
+}
+
+.footer__socials {
+    width: 48px;
+    height: 48px;
+    margin-right: 18px;
+    border-radius: 25px;
+    background-color: var(--mineral-green-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer Recent News leads Column
+   -------------------------------------------------------------------------- */
+.footer__recent-news {
+    /* dummy-property: value */
+}
+
+.footer__recent-news--title {
+    /* dummy-property: value */
+}
+
+.footer__recent-news--wrapper {
+    /* dummy-property: value */
+}
+
+.footer__recent-news--lead {
+    /* dummy-property: value */
+}
+
+.footer__recent-news--date-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer__recent-news--clock {
+    /* dummy-property: value */
+}
+
+.footer__recent-news--date {
+    /* dummy-property: value */
+}
+
+/* Footer Site Map Column
+   -------------------------------------------------------------------------- */
+.footer__site-map {
+    /* dummy-property: value */
+}
+
+.footer__site-map--title {
+    /* dummy-property: value */
+}
+
+.footer__site-map--links-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+footer__site-map--link {
+    text-decoration: none;
+}
+
+/* Footer Subscribe Column
+   -------------------------------------------------------------------------- */
+.footer__subscribe {
+    /* dummy-property: value */
+}
+
+.footer__subscribe--title {
+    /* dummy-property: value */
+}
+
+.footer__subscribe--subtitle {
+    /* dummy-property: value */
+}
+
+.footer__subscribe--form-wrapper {
+    /* dummy-property: value */
+    display: flex;
+}
+
+.footer__subscribe--form {
+    /* dummy-property: value */
+}
+
+.footer__subscribe--email-textarea {
+    /* dummy-property: value */
+    height: 36px;
+    resize: none;
+}
+
+.footer__subscribe--send-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 42px;
+    background-color: var(--tan-color);
+}
+
+
+/* Footer Copyright
+   ========================================================================== */
+.footer__copyright {
+    display: flex;
+    align-items: baseline;
+    border-top: 1px solid var(--silver-sand-color);
+    height: 60px;
+    margin-top: 310px;
+}
+
+.footer__copyright--text {
+    padding-right: 12px;
+
+}
+
+.footer__copyright--author {
+
+}
+
+.footer__copyright--link {
+    text-decoration: none;
+}
 
 
 
@@ -329,16 +693,19 @@
 
 
 
-/**** LATEST NEWS SECTION ****/
-/**** OUR CLIENTS SECTION ****/
-/**** MAP SECTION ****/
-/**** CONTACT INFO SECTION ****/
-/**** FOOTER SECTION ****/
+/* ==========================================================================
+   Back to top button Section
+   ========================================================================== */
 
-
-
-
-
-
-
-
+.back-to-top__button {
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    border-radius: 12px;
+    background-color: var(--tan-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

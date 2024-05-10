@@ -44,7 +44,7 @@ html {
 }
 
 body {
-    background-color: #e1e1e1;
+    /*background-color: #e1e1e1;*/
 }
 
 /* ==========================================================================
@@ -70,7 +70,7 @@ body {
 }
 
 .bold-40--light {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: var(--bold);
     color: var(--white-color);
 }
@@ -79,6 +79,12 @@ body {
     font-size: 24px;
     font-weight: var(--bold);
     color: var(--tuna-color);
+}
+
+.bold-24--light {
+    font-size: 24px;
+    font-weight: var(--bold);
+    color: var(--white-color);
 }
 
 .bold-20--dark {
@@ -111,6 +117,12 @@ body {
     color: var(--tuna-color);
 }
 
+.bold-16--tan {
+    font-size: 16px;
+    font-weight: var(--bold);
+    color: var(--tan-color);
+}
+
 .semibold-48--light {
     font-size: 48px;
     font-weight: var(--semibold);
@@ -119,8 +131,14 @@ body {
 
 .semibold-20--light {
     font-size: 20px;
-    font-weight: var(--medium);
+    font-weight: var(--semibold);
     color: var(--white-color);
+}
+
+.semibold-20--dark {
+    font-size: 20px;
+    font-weight: var(--semibold);
+    color: var(--tuna-color);
 }
 
 .semibold-16--light {
@@ -129,10 +147,23 @@ body {
     color: var(--white-color);
 }
 
+
+.semibold-16--tan {
+    font-size: 16px;
+    font-weight: var(--semibold);
+    color: var(--tan-color);
+}
+
 .semibold-italic-16--dark {
     font-size: 16px;
     font-weight: var(--semibold-italic);
     color: var(--tuna-color);
+}
+
+.semibold-14--light {
+    font-size: 14px;
+    font-weight: var(--semibold);
+    color: var(--white-color);
 }
 
 .medium-20--dark {
@@ -153,6 +184,18 @@ body {
     color: var(--tan-color);
 }
 
+.medium-18--dark {
+    font-size: 18px;
+    font-weight: var(--medium);
+    color: var(--tuna-color);
+}
+
+.medium-18--light {
+    font-size: 18px;
+    font-weight: var(--medium);
+    color: var(--white-color);
+}
+
 .medium-16--dark {
     font-size: 16px;
     font-weight: var(--medium);
@@ -171,11 +214,44 @@ body {
     color: var(--tuna-color);
 }
 
+.regular-18--light {
+    font-size: 18px;
+    font-weight: var(--regular);
+    color: var(--white-color);
+}
+
 .regular-16--dark {
     font-size: 16px;
     font-weight: var(--regular);
     color: var(--tuna-color);
 }
+
+
+.regular-16--tan {
+    font-size: 16px;
+    font-weight: var(--regular);
+    color: var(--tan-color);
+}
+
+.regular-14--light {
+    font-size: 14px;
+    font-weight: var(--regular);
+    color: var(--white-color);
+}
+
+.regular-12--light {
+    font-size: 12px;
+    font-weight: var(--regular);
+    color: var(--white-color);
+}
+
+.lite-16--dark {
+    font-size: 16px;
+    font-weight: var(--lite);
+    color: var(--tuna-color);
+}
+
+
 
 /* ==========================================================================
    Common Elements
@@ -225,13 +301,42 @@ a {
     margin-left: 220px;
 }
 
-.cta__link--tan {
-    /* dummy property: value */
+.cta__outlined--tan {
+    padding: 15px 35px;
+    border: 2px solid var(--tan-color);
+    text-transform: uppercase;
+
+    margin-left: 220px;
 }
+
+.cta__link--tan {
+    /* dummy property: value
+    bold-16--tan*/
+    font-size: 16px;
+    font-weight: var(--bold);
+    color: var(--tan-color);
+}
+
+
+/* ==========================================================================
+   Height & Shadows
+   ========================================================================== */
+.titles-shadow {
+    text-shadow: 3px 4px 4px rgba(0,0,0,0.45);
+}
+
 
 /* ==========================================================================
    Uncategorized Visual Elements
    ========================================================================== */
 .standard-separator {
     /* dummy property: value */
+    width: 30px;
+    height: 6px;
+    border-radius: 25px;
+    background-color: var(--tan-color);
+}
+
+.swiper-bullets {
+    /* dummy-property: value */
 }
