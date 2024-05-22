@@ -7,6 +7,7 @@
     <title>Parque Industrial de Tres Arroyos</title>
     <!-- Link to style and favicon -->
     <link href="./images/favicon.png" rel="shortcut icon" type="image/x-icon">
+<!--    <link href="./lib/reset.css">-->
     <link href="./css/landing.css" rel="stylesheet">
     <!-- mobile tab color-->
     <meta name="theme-color" content="#2091f9">
@@ -24,10 +25,10 @@
             <div class="header-top-bar">
                 <!--Branding-wrapper-->
                 <div class="header-top-bar__branding--white">
-                    <img src="images/branding-white.png" height="80" width="340"/>
+                    <img src="images/branding-white.png" alt="Logo parque industrial" height="80" width="340"/>
                 </div>
                 <!--Navigation-bar-wrapper-->
-                <div class="header-top-bar__nav header-top-bar__nav--right">
+                <div class="header-top-bar__nav">
                     <!--Navigation-links-->
                     <ul class="header-top-bar__links-wrapper">
                         <li class="nav-link">
@@ -52,6 +53,7 @@
                         </li>
                     </ul>
                 </div>
+                <div class="header-top-bar__nav--right"></div>
             </div>
         </div>
 
@@ -71,7 +73,7 @@
             <!--Description-buttons-wrapper-->
             <div class="float-description-buttons-bar">
                 <a href="#" class="cta__filled--green semibold-16--light">
-                    <i class='bx bx-download bx-fw bx-flip-horizontal' style='color:#ffffff'></i>
+                    <i class='bx bx-download bx-sm bx-fw bx-flip-horizontal' style='color:#ffffff; padding-left: 12px;'></i>
                     Folleto
                 </a>
                 <a href="#" class="cta__filled--tan semibold-16--light">Descubra más</a>
@@ -89,9 +91,9 @@
         <!--Frame-->
         <div class="about-us__frame">
             <!--Title-->
-            <h1 class="bold-64--tan">15 Años</h1>
+            <h1 class="bold-64--tan">15 <br>Años</h1>
             <!--Subtitle-->
-            <h5 class="bold-24--dark">Al servicio de la producción</h5>
+            <h3 class="bold-24--dark">Al servicio <br>de la producción</h3>
         </div>
         <!--Photo-->
         <div class="about-us__photo">
@@ -100,7 +102,7 @@
         <!--About-us wrapper-->
         <div class="about-us__description">
             <!--Title-->
-            <h6 class="about-us__title bold-24--dark">Quienes somos</h6>
+            <h3 class="about-us__title bold-24--dark">Quienes somos</h3>
             <div class="standard-separator"></div>
             <p class="about-us__text regular-16--dark">El parque industrial fué creado por el Decreto <br> Nº 3631/75
                 del Gobierno de la Provincia de <br> Buenos Aires en el mes de mayo de 1975. <br>
@@ -139,9 +141,11 @@
             <!--Title-->
             <div class="our-solutions__title bold-40--dark">Nuestras soluciones</div>
             <!--Subtitle-->
-            <div class="our-solutions__subtitle regular-20--dark">El parque industrial cuenta con los siguientes servicios
-                comunes para todos nuestros clientes y además contamos con otros más especializados:
+            <div class="our-solutions__subtitle regular-20--dark">El parque industrial cuenta con los siguientes
+                servicios
+                comunes para todos nuestros clientes y además <br>contamos con otros más especializados:
             </div>
+
 
             <!--Columns-wrapper-->
             <div class="our-solutions__columns medium-20--dark">
@@ -156,7 +160,7 @@
                 </div>
                 <!--Col-2-->
                 <div class="our-solutions__column">
-                    <ul class="our solutions__ul">
+                    <ul class="our-solutions__columns--ul">
                         <li><span class="our-solutions__columns--span medium-20--tan">■</span>Telefonía e Internet</li>
                         <li><span class="our-solutions__columns--span medium-20--tan">■</span>Pavimento de hormigón</li>
                         <li><span class="our-solutions__columns--span medium-20--tan">■</span>Seguridad Privada</li>
@@ -279,52 +283,52 @@
                 <!--counter-1-companies-based-->
                 <div class="counters__card">
                     <!--Icon-->
-                    <img class="counters__icon" src="images/counter-factories.png" alt="Icono de fábrica"/>
+                    <img class="counters__card--icon" src="images/counter-factories.png" alt="Icono de fábrica"/>
                     <!--Number-->
-                    <h1 class="bold-64--tan">94</h1>
+                    <h1 class="counters__card--number bold-64--tan">94</h1>
                     <!--Title-->
-                    <h4 class="bold-20--dark">Empresas radicadas</h4>
+                    <h4 class="counters__card--title bold-20--dark">Empresas radicadas</h4>
                     <!--Subtitle-->
-                    <p class="medium-16--dark">
+                    <p class="counters__card--description medium-16--dark">
                         Hemos completado todo tipo de <br> proyectos incluyendo manufactura, <br>maquinaria, etc.
                     </p>
                 </div>
                 <!--counter-2-job-positions-->
                 <div class="counters__card">
                     <!--Icon-->
-                    <img class="counters__icon" src="images/counter-employee.png" alt="Icono de empleado"/>
+                    <img class="counters__card--icon" src="images/counter-employee.png" alt="Icono de empleado"/>
                     <!--Number-->
-                    <h1 class="bold-64--tan">3000</h1>
+                    <h1 class="counters__card--number bold-64--tan">3000</h1>
                     <!--Title-->
-                    <h4 class="bold-20--dark">Puestos de trabajo</h4>
+                    <h4 class="counters__card--title bold-20--dark">Puestos de trabajo</h4>
                     <!--Subtitle-->
-                    <p class="medium-16--dark">
+                    <p class="counters__card--description medium-16--dark">
                         Se han generado gran cantidad <br>de puestos de trabajo genuinos <br>formales.
                     </p>
                 </div>
                 <!--counter-3-satisfied-customers-->
                 <div class="counters__card">
                     <!--Icon-->
-                    <img class="counters__icon" src="images/counter-rating.png" alt="Icono de conformidad"/>
+                    <img class="counters__card--icon" src="images/counter-rating.png" alt="Icono de conformidad"/>
                     <!--Number-->
-                    <h1 class="bold-64--tan">+100</h1>
+                    <h1 class="counters__card--number bold-64--tan">+100</h1>
                     <!--Title-->
-                    <h4 class="bold-20--dark">Clientes satisfechos</h4>
+                    <h4 class="counters__card--title bold-20--dark">Clientes satisfechos</h4>
                     <!--Subtitle-->
-                    <p class="medium-16--dark">
+                    <p class="counters__card--description medium-16--dark">
                         Nuestros clientes han alcanzado <br>sus objetivos planificados y metas <br>con creces.
                     </p>
                 </div>
                 <!--counter-4-productive-fields-->
                 <div class="counters__card">
                     <!--Icon-->
-                    <img class="counters__icon" src="images/counter-poductivity.png" alt="Icono de engranajes"/>
+                    <img class="counters__card--icon" src="images/counter-poductivity.png" alt="Icono de engranajes"/>
                     <!--Number-->
-                    <h1 class="bold-64--tan">160</h1>
+                    <h1 class="counters__card--number bold-64--tan">160</h1>
                     <!--Title-->
-                    <h4 class="bold-20--dark">Tierras productivas</h4>
+                    <h4 class="counters__card--title bold-20--dark">Tierras productivas</h4>
                     <!--Subtitle-->
-                    <p class="medium-16--dark">
+                    <p class="counters__card--description medium-16--dark">
                         Produciendo variedades de cultivos y <br>cría de animales también abundan los <br>emplazamientos fabriles.
                     </p>
                 </div>
@@ -339,7 +343,7 @@
             <div class="testimonials__title bold-40--light">Testimonios</div>
             <!--Subtitle-->
             <div class="testimonials__subtitle medium-20--light">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br>
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
                 <!--Columns-wrapper-->
                 <div class="testimonials__columns">
@@ -372,7 +376,7 @@
                             <img class="testimonials__photo" src="images/testimonials-person1.jpg" alt="Foto de persona" height="68" width="68"/>
                             <div class="testimonials__person-data">
                                 <!--Name-->
-                                <h4 class="bold-18--light">Jonathan Cannan</h4>
+                                <h4 class="bold-18--light">Jonathan Fernández</h4>
                                 <!--Occupation-->
                                 <h5 class="medium-16--light">Estudiante</h5>
                             </div>
@@ -387,7 +391,7 @@
                         </div>
                         <div class="testimonials__text">
                             <!--Text-->
-                            <p class="semibold-20--light">
+                            <p class="medium-18--light">
                                 Lorem Ipsum is simply dummy text of <br>the printing and typetesting industry.<br> Lorem
                                 Ipsum has been the industrys <br>standard dummy text over since the<br> when a printer
                                 took a gallery of type<br> and scrambked it to make
@@ -403,7 +407,7 @@
                             <img class="testimonials__photo" src="images/testimonials-person2.jpg" alt="Foto de persona" height="68" width="68"/>
                             <div class="testimonials__person-data">
                                 <!--Name-->
-                                <h4 class="bold-18--light">Patrick Sudden</h4>
+                                <h4 class="bold-18--light">Marcos Pierini</h4>
                                 <!--Occupation-->
                                 <h5 class="medium-16--light">Empresario</h5>
                             </div>
@@ -418,7 +422,7 @@
                         </div>
                         <div class="testimonials__text">
                             <!--Text-->
-                            <p class="semibold-20--light">
+                            <p class="medium-18--light">
                                 Lorem Ipsum is simply dummy text of <br>the printing and typetesting industry.<br> Lorem
                                 Ipsum has been the industrys <br>standard dummy text over since the<br> when a printer
                                 took a gallery of type<br> and scrambked it to make
@@ -434,7 +438,7 @@
                             <img class="testimonials__photo" src="images/testimonials-person3.jpg" alt="Foto de persona" height="68" width="68"/>
                             <div class="testimonials__person-data">
                                 <!--Name-->
-                                <h4 class="bold-18--light">Alan Morrison</h4>
+                                <h4 class="bold-18--light">Rubén Molina</h4>
                                 <!--Occupation-->
                                 <h5 class="medium-16--light">Agricultor</h5>
                             </div>
@@ -474,7 +478,7 @@
                         <div class="latest-news__card--date bold-16--tan">10 agosto 2020</div>
                         <!--Title-->
                         <div class="latest-news__card--title bold-24--dark">
-                            <h4>Sánchez se reunió con el Presidente <br>de la...</h4></div>
+                            <h4>Sánchez se reunió con el <br>Presidente de la...</h4></div>
                         <!--Lead-->
                         <div class="latest-news__card--lead lite-16--dark">
                             <p>Sánchez mantuvo este lunes una reunión con el <br>Presidente de la Asociación de...</p>
@@ -606,34 +610,34 @@
         <!--Contact-info-wrapper-->
         <div class="contact-info__cards">
             <!--Address-card-->
-            <div class="contact-info__card">
+            <div class="contact-info__card contact-info__card--address">
                 <div class="contact-info__content">
                     <!--Title-->
-                    <h4 class="bold-20--dark">Dirección</h4>
+                    <h4 class="contact-info__content--title bold-20--dark">Dirección</h4>
                     <!--information-->
-                    <p class="medium-16--dark">
+                    <p class="contact-info__content--text medium-16--dark">
                         Ruta Nacional n° 3, Km 496
                     </p>
                 </div>
             </div>
             <!--Email-card-->
-            <div class="contact-info__card">
+            <div class="contact-info__card contact-info__card--email">
                 <div class="contact-info__content">
                     <!--Title-->
-                    <h4 class="bold-20--dark">E-Mail</h4>
+                    <h4 class="contact-info__content--title bold-20--dark">E-Mail</h4>
                     <!--information-->
-                    <p class="medium-16--dark">
+                    <p class="contact-info__content--text medium-16--dark">
                         empresa@tresarroyos.gov.ar <br> parque industrial3a.com.ar
                     </p>
                 </div>
             </div>
             <!--Phone-card-->
-            <div class="contact-info__card">
+            <div class="contact-info__card contact-info__card--phone">
                 <div class="contact-info__content">
                     <!--Title-->
-                    <h4 class="bold-20--dark">Teléfono</h4>
+                    <h4 class="contact-info__content--title bold-20--dark">Teléfono</h4>
                     <!--information-->
-                    <p class="medium-16--dark">
+                    <p class="contact-info__content--text medium-16--dark">
                         +54 2983 439250 <br> +54 2983 414272
                     </p>
                 </div>
@@ -770,7 +774,11 @@
                     <div class="footer__subscribe--form-wrapper">
                         <!--Text-area-->
                         <div class="footer__subscribe--form">
-                            <textarea class="footer__subscribe--email-textarea" name="footer__subscribe--email-textarea" rows="1" cols="25">Ingrese su e-mail</textarea>
+                            <textarea class="footer__subscribe--email-textarea regular-18--grey"
+                                      name="footer__subscribe--email-textarea"
+                                      placeholder="Ingrese su e-mail"
+                                      rows="1" cols="25">
+                            </textarea>
                         </div>
                         <!--Send-button-->
                         <div class="footer__subscribe--send-button">
@@ -782,7 +790,7 @@
             <!--Copyright-wrapper-->
             <div class="footer__copyright">
                 <!--Copyright-text-->
-                <h6 class="footer__copyright--text semibold-16--light">@2024 Municipalidad de Tres Arroyos.</h6>
+                <h6 class="footer__copyright--text semibold-16--light">@ 2024 Municipalidad de Tres Arroyos.</h6>
                 <!--Copyright-link-->
                 <p class="footer__copyright--author regular-14--light">Diseñado por
                     <a class="footer__copyright--link regular-14--light" href="#">Juan Fabio Rey</a>

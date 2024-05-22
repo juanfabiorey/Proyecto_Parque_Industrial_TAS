@@ -1,0 +1,264 @@
+
+/* ==========================================================================
+   Contact Info Cards Section
+   ========================================================================== */
+
+.contact-info {
+    height: 165px;
+    background-color: var(--tan-color);
+}
+
+.contact-info__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+.contact-info__card {
+    width: 394px;
+    height: 152px;
+    margin-top: 56px;
+    border-radius: 12px;
+    background-color: var(--white-color);
+}
+
+.contact-info__content {
+    text-align: center;
+}
+
+.contact-info__content--title {
+    padding-top: 42px;
+}
+
+.contact-info__content--text {
+    padding-top: 20px;
+}
+
+/* Contact Info Cards Backgrounds
+   ========================================================================== */
+.contact-info__card--address {
+    background-image: url("../images/contact-map-solid.png");
+    background-repeat: no-repeat;
+    background-size: 69px 92px;
+    background-position: 20px 30px;
+}
+
+.contact-info__card--email {
+    background-image: url("../images/contact-email-solid.png");
+    background-repeat: no-repeat;
+    background-size: 100px 92px;
+    background-position: 20px 30px;
+}
+
+.contact-info__card--phone {
+    background-image: url("../images/contact-phone-solid.png");
+    background-repeat: no-repeat;
+    background-size: 90px 82px;
+    background-position: 40px 30px;
+}
+
+
+/* ==========================================================================
+   Footer Section
+   ========================================================================== */
+
+.footer {
+    /* dummy-property: value */
+    height: 580px;
+    padding-top: 172px;
+    background-color: var(--tuna-color);
+    background-image: url("../images/footer-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer__wrapper {
+    /* dummy-property: value */
+
+}
+
+/* Footer Columns
+   ========================================================================== */
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+/* Footer Branding/Socials Column
+   -------------------------------------------------------------------------- */
+
+.footer__institution {
+    /* dummy-property: value */
+}
+
+.footer__branding--white {
+    /* dummy-property: value */
+}
+
+.footer__strapline {
+    padding-top: 22px;
+}
+
+.footer__socials--row {
+    display: flex;
+    padding-top: 80px;
+}
+
+.footer__socials {
+    width: 48px;
+    height: 48px;
+    margin-right: 18px;
+    border-radius: 25px;
+    background-color: var(--mineral-green-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer Recent News leads Column
+   -------------------------------------------------------------------------- */
+.footer__recent-news {
+    padding-top: 20px;
+}
+
+.footer__recent-news--title {
+    /* dummy-property: value */
+}
+
+.footer__recent-news--wrapper {
+    /* dummy-property: value */
+}
+
+.footer__recent-news--lead {
+    /* dummy-property: value */
+    padding-top: 35px;
+}
+
+.footer__recent-news--date-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.footer__recent-news--clock {
+    padding-right: 9px;
+
+}
+
+.footer__recent-news--date {
+    /* dummy-property: value */
+}
+
+/* Footer Site Map Column
+   -------------------------------------------------------------------------- */
+.footer__site-map {
+    padding-top: 20px;
+}
+
+.footer__site-map--title {
+    /* dummy-property: value */
+}
+
+.footer__site-map--links-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    line-height: 40px;
+}
+
+.footer__site-map--link {
+    text-decoration: none;
+}
+
+/* Footer Subscribe Column
+   -------------------------------------------------------------------------- */
+.footer__subscribe {
+    padding-top: 20px;
+}
+
+.footer__subscribe--title {
+    /* dummy-property: value */
+}
+
+.footer__subscribe--subtitle {
+    padding-top: 25px;
+}
+
+.footer__subscribe--form-wrapper {
+    /* dummy-property: value */
+    display: flex;
+    margin-top: 46px;
+}
+
+.footer__subscribe--form {
+}
+
+.footer__subscribe--email-textarea {
+    /* dummy-property: value */
+    height: 38px;
+    resize: none;
+    border: none;
+    border-radius: 6px 0 0 6px;
+}
+
+.footer__subscribe--email-textarea::placeholder {
+    padding-left: 14px;
+    padding-top: 9px;
+}
+
+.footer__subscribe--send-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 42px;
+    background-color: var(--tan-color);
+    border-radius: 0 6px 6px 0;
+
+}
+
+
+/* Footer Copyright
+   ========================================================================== */
+.footer__copyright {
+    display: flex;
+    align-items: baseline;
+    border-top: 1.5px solid var(--silver-sand-color);
+    height: 60px;
+    margin-top: 80px;
+}
+
+.footer__copyright--text {
+    margin-left: 240px;
+    padding-right: 12px;
+    padding-top: 50px;
+}
+
+.footer__copyright--author {
+
+}
+
+.footer__copyright--link {
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   Back to top button Section
+   ========================================================================== */
+
+.back-to-top__button {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 7623px;
+    right: 60px;
+    border-radius: 12px;
+    background-color: var(--tan-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
