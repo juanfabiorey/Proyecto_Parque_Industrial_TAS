@@ -8,7 +8,6 @@
     display: block;
     width: 1921px;
     height: 1140px;
-
     background-image: url("../images/hero.png");
 }
 
@@ -43,14 +42,12 @@
     height: 68px;
     width: 222px;
     overflow: hidden;
-
     background-color: var(--tan-color);
 }
 
 .header-top-bar__links-wrapper {
     display: flex;
     padding-inline-start: 0;
-
     background-color: var(--tan-color);
 }
 
@@ -79,14 +76,12 @@
     padding-top: 1px;
     margin-top: 126px;
     margin-left: 240px;
-
     background-color: rgba(0, 0, 0, 0.25);
 }
 
 .float-description__title h3 {
     padding-left: 86px;
     margin-top: 56px;
-
     border-left-style: solid;
     border-left-width: 15px;
     border-color: var(--tan-color);
@@ -95,7 +90,6 @@
 .float-description__subtitle {
     padding-left: 101px;
     margin-top: 45px;
-
     line-height: 26px;
 }
 
@@ -110,14 +104,12 @@
 
 .about-us {
     position: relative;
-
     display: flex;
     width: 1920px;
     height: 708px;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
     background-image: url("../images/about-aerial.png");
     background-repeat: no-repeat;
 }
@@ -126,7 +118,6 @@
     position: absolute;
     left: 388px;
     z-index: 1;
-
     width: 682px;
     height: 422px;
     padding-left: 32px;
@@ -136,7 +127,6 @@
 .about-us__frame h1 {
     padding-top: 160px;
     margin: 0;
-
     line-height: 58px;
 }
 
@@ -149,7 +139,6 @@
     position: absolute;
     left: 675px;
     z-index: 2;
-
     width: 362px;
     height: 600px;
 }
@@ -159,11 +148,9 @@
     left: 1037px;
     top: 217px;
     z-index: 3;
-
     width: 452px;
     height: 434px;
     padding-left: 68px;
-
     background-color: var(--white-color);
 }
 
@@ -187,7 +174,6 @@
     height: 283px;
     flex-direction: row;
     align-items: flex-start;
-
     background-image: url("../images/crane.png");
     background-color: var(--tan-color);
     background-repeat: no-repeat;
@@ -221,7 +207,6 @@
 
 .our-solutions {
     width: 1920px;
-
     background-color: var(--white-color);
 }
 
@@ -231,7 +216,6 @@
 
 .our-solutions__title {
     padding-top: 130px;
-
     text-align: center;
 }
 
@@ -286,9 +270,7 @@
 
 .our-solutions__card-content {
     position: relative;
-
     display: inline-block;
-
     text-align: center;
 }
 
@@ -310,7 +292,6 @@
 
 .counters {
     height: 564px;
-
     background-color: var(--white-color);
     background-image: url("../images/counter-background.png");
     background-repeat: no-repeat;
@@ -326,7 +307,6 @@
     padding-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
-
     max-width: 328px;
 }
 
@@ -334,7 +314,6 @@
     padding-top: 36px;
     height: 60px;
     width: 60px;
-
     filter: opacity(35%);
 }
 
@@ -359,7 +338,6 @@
 
 .testimonials {
     height: 707px;
-
     background-color: var(--cinder-color);
     background-image: url("../images/dot-planisphere-5.png");
     background-repeat: repeat-x;
@@ -372,14 +350,13 @@
 
 .testimonials__title {
     padding-top: 70px;
-
     text-align: center;
 }
 
 .testimonials__subtitle {
     padding-top: 28px;
-}
     text-align: center;
+}
 
 .testimonials__columns {
     display: flex;
@@ -452,7 +429,6 @@
 .latest-news {
     width: 1920px;
     height: 940px;
-
     background-color: var(--silver-sand-color);
     background-image: url("../images/latest-news-background-pattern.png");
     background-repeat: no-repeat;
@@ -470,13 +446,11 @@
 
 .latest-news__title {
     padding-top: 134px;
-
     text-align: center;
 }
 
 .latest-news__subtitle {
     padding-top: 27px;
-
     text-align: center;
 }
 
@@ -487,7 +461,6 @@
 
 .latest-news__card {
     max-width: 448px;
-
 }
 
 .latest-news__card--picture {
@@ -496,7 +469,6 @@
 
 .latest-news__card--date {
     padding-top: 28px;
-
     text-transform: uppercase;
 }
 
@@ -535,7 +507,6 @@
 
 .our-clients__title {
     margin-top: 80px;
-
     text-align: center;
 }
 
@@ -577,7 +548,6 @@
 
 .you-are-here {
     height: 700px;
-
     background-image: url("../images/map.png");
     background-repeat: no-repeat;
     background-size: cover;

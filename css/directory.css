@@ -1,1 +1,158 @@
 @import "globals.css";
+
+/* ==========================================================================
+   Header Section
+   ========================================================================== */
+
+.header {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.header-top-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-top-bar__branding {
+    padding-left: 240px;
+}
+
+.header-top-bar__nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 148px;
+}
+
+.header-top-bar__links-wrapper {
+    display: flex;
+    padding-inline-start: 0;
+}
+
+.nav-link {
+    display: flex;
+    width: 162px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-transform: uppercase;
+}
+
+.link--active {
+    /* dummy-property: value */
+}
+
+/* ==========================================================================
+   Title Bar Section
+   ========================================================================== */
+.title__section--wrapper {
+    display: flex;
+    height: 125px;
+    align-items: center;
+    background-color: var(--tan-color);
+}
+
+.title__section--box {
+    padding-left: 240px;
+}
+
+/* ==========================================================================
+   Directory Section
+   ========================================================================== */
+
+.directory {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+/* Search & Filter Section
+   ========================================================================== */
+
+.directory__tools {
+    /* dummy-property: value */
+}
+
+.directory__search {
+    /* dummy-property: value */
+}
+
+.directory__filter {
+    /* dummy-property: value */
+}
+
+.directory__filter--legend {
+    /* dummy-property: value */
+}
+
+.directory__filter--dropdown {
+    /* dummy-property: value */
+}
+
+/* Directory Records
+   ========================================================================== */
+
+.directory__contacts--wrapper {
+    margin-bottom: 194px;
+}
+
+.directory__contacts--list {
+    /* dummy-property: value */
+}
+
+.directory__contacts--index {
+    padding-top: 70px;
+    padding-bottom: 52px;
+    padding-left: 64px;
+}
+
+.directory__contacts--records {
+    /* dummy-property: value */
+}
+
+.directory__contacts--items {
+    padding: 0;
+}
+
+.directory__contacts--item-odd {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--iron-color);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.directory__contacts--item-even {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--seashell-color);
+}
+
+.directory__contacts--item-name {
+    padding-left: 45px;
+}
+
+.directory__contacts--item-icon {
+    padding-right: 42px;
+}
+
+.directory__contacts--item-opened {
+    height: 312px;
+
+}
+
+
+
+
+
+

@@ -64,7 +64,6 @@
    ========================================================================== */
 
 .footer {
-    /* dummy-property: value */
     height: 580px;
     padding-top: 172px;
     background-color: var(--tuna-color);
@@ -75,7 +74,6 @@
 
 .footer__wrapper {
     /* dummy-property: value */
-
 }
 
 /* Footer Columns
@@ -83,7 +81,7 @@
 
 .footer__columns {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     margin-right: 240px;
     margin-left: 240px;
 }
@@ -123,6 +121,7 @@
    -------------------------------------------------------------------------- */
 .footer__recent-news {
     padding-top: 20px;
+    padding-left: 110px;
 }
 
 .footer__recent-news--title {
@@ -157,6 +156,7 @@
    -------------------------------------------------------------------------- */
 .footer__site-map {
     padding-top: 20px;
+    padding-left: 96px;
 }
 
 .footer__site-map--title {
@@ -178,6 +178,7 @@
    -------------------------------------------------------------------------- */
 .footer__subscribe {
     padding-top: 20px;
+    padding-left: 88px;
 }
 
 .footer__subscribe--title {
@@ -197,15 +198,15 @@
 .footer__subscribe--form {
 }
 
-.footer__subscribe--email-textarea {
-    /* dummy-property: value */
-    height: 38px;
+.footer__subscribe--email-input {
+    height: 40px;
+    width: 337px;
     resize: none;
     border: none;
     border-radius: 6px 0 0 6px;
 }
 
-.footer__subscribe--email-textarea::placeholder {
+.footer__subscribe--email-input::placeholder {
     padding-left: 14px;
     padding-top: 9px;
 }
@@ -218,7 +219,6 @@
     height: 42px;
     background-color: var(--tan-color);
     border-radius: 0 6px 6px 0;
-
 }
 
 
@@ -253,8 +253,8 @@
 .back-to-top__button {
     width: 120px;
     height: 120px;
-    position: absolute;
-    top: 7623px;
+    position: fixed;
+    bottom: 60px;
     right: 60px;
     border-radius: 12px;
     background-color: var(--tan-color);
