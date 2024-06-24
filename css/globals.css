@@ -128,6 +128,12 @@ body {
     color: var(--white-color);
 }
 
+.bold-18--tan {
+    font-size: 18px;
+    font-weight: var(--bold);
+    color: var(--tan-color);
+}
+
 .bold-16--light {
     font-size: 16px;
     font-weight: var(--bold);
@@ -237,6 +243,13 @@ body {
     color: var(--tuna-color);
 }
 
+.medium-italic-16--dark {
+    font-size: 16px;
+    font-weight: var(--medium);
+    font-style: italic;
+    color: var(--tuna-color);
+}
+
 .medium-16--light {
     font-size: 16px;
     font-weight: var(--medium);
@@ -259,6 +272,12 @@ body {
     font-size: 18px;
     font-weight: var(--regular);
     color: var(--mineral-green-color);
+}
+
+.regular-18--dark {
+    font-size: 18px;
+    font-weight: var(--regular);
+    color: var(--tuna-color);
 }
 
 .regular-16--dark {
@@ -306,9 +325,26 @@ a {
     text-decoration: none;
 }
 
+
 /* ==========================================================================
    Call to actions & Buttons
    ========================================================================== */
+
+.nav-link {
+    display: flex;
+    width: 162px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-transform: uppercase;
+}
+
+.link--active {
+    /* dummy-property: value */
+}
 
 .cta__filled--tan {
     padding: 15px 55px;
