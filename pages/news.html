@@ -22,31 +22,33 @@
     <div class="header-top-bar">
         <!--Branding-wrapper-->
         <div class="header-top-bar__branding">
-            <img src="../images/branding-black.png" alt="Logo parque industrial" height="80" width="340"/>
+            <a href="../pages/landing.html">
+                <img src="../images/branding-black.png" alt="Logo parque industrial" height="80" width="340"/>
+            </a>
         </div>
         <!--Navigation-bar-wrapper-->
         <div class="header-top-bar__nav">
             <!--Navigation-links-->
             <ul class="header-top-bar__links-wrapper">
                 <li class="nav-link">
-                    <a class="link link bold-16--dark" href="../pages/landing.html">Inicio</a>
+                    <a class="link-section link bold-16--dark" href="../pages/landing.html">Inicio</a>
                     <!--text= class="bold__16--light"-->
                 </li>
                 <li class="nav-link">
-                    <a class="link bold-16--dark" href="../pages/landing.html#our-solutions">Soluciones</a>
+                    <a class="link-section bold-16--dark" href="../pages/landing.html#our-solutions">Soluciones</a>
                     <!--text= class="bold__16--dark"-->
                 </li>
                 <li class="nav-link">
-                    <a class="link bold-16--dark" href="../pages/directory.html">Empresas</a>
+                    <a class="link-section bold-16--dark" href="../pages/directory.html">Empresas</a>
                 </li>
                 <li class="nav-link">
-                    <a class="link bold-16--tan" href="../pages/news.html">Noticias</a>
+                    <a class="link-section bold-16--tan" href="../pages/news.html">Noticias</a>
                 </li>
                 <li class="nav-link">
-                    <a class="link bold-16--dark" href="../pages/map.html">Mapa</a>
+                    <a class="link-section bold-16--dark" href="../pages/map.html">Mapa</a>
                 </li>
                 <li class="nav-link">
-                    <a class="link bold-16--dark" href="../pages/contact.html">Contacto</a>
+                    <a class="link-section bold-16--dark" href="../pages/contact.html">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -59,7 +61,45 @@
     </div>
 </div>
 
-
+<!--Contact Info Section-->
+<div class="contact-info">
+    <!--Contact-info-wrapper-->
+    <div class="contact-info__cards">
+        <!--Address-card-->
+        <div class="contact-info__card contact-info__card--address">
+            <div class="contact-info__content">
+                <!--Title-->
+                <h4 class="contact-info__content--title bold-20--dark">Dirección</h4>
+                <!--information-->
+                <p class="contact-info__content--text medium-16--dark">
+                    Ruta Nacional n° 3, Km 496
+                </p>
+            </div>
+        </div>
+        <!--Email-card-->
+        <div class="contact-info__card contact-info__card--email">
+            <div class="contact-info__content">
+                <!--Title-->
+                <h4 class="contact-info__content--title bold-20--dark">E-Mail</h4>
+                <!--information-->
+                <p class="contact-info__content--text medium-16--dark">
+                    parqueindustrial@tresarroyos.gov.ar
+                </p>
+            </div>
+        </div>
+        <!--Phone-card-->
+        <div class="contact-info__card contact-info__card--phone">
+            <div class="contact-info__content">
+                <!--Title-->
+                <h4 class="contact-info__content--title bold-20--dark">Teléfono</h4>
+                <!--information-->
+                <p class="contact-info__content--text medium-16--dark">
+                    +54 2983 439250 <br> +54 2983 414272
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--Footer Section-->
 <div class="footer">
@@ -71,7 +111,10 @@
             <div class="footer__institution">
                 <!--Footer-branding-wrapper-->
                 <div class="footer__branding--white">
-                    <img src="../images/branding-white.png" height="80" width="340"/></div>
+                    <a href="../pages/landing.html">
+                        <img src="../images/branding-white.png" height="80" width="340"/>
+                    </a>
+                </div>
                 <!--Footer-subtitle-wrapper-->
                 <div class="footer__strapline regular-18--light">
                     <p>
@@ -206,7 +249,12 @@
         <!--Copyright-wrapper-->
         <div class="footer__copyright">
             <!--Copyright-text-->
-            <h6 class="footer__copyright--text semibold-16--light">@ 2024 Municipalidad de Tres Arroyos.</h6>
+            <h6 class="footer__copyright--text semibold-16--light">
+                <script type="text/javascript">
+                    year=new Date().getFullYear();
+                    document.write("© " + year + " Municipalidad de Tres Arroyos.");
+                </script>
+            </h6>
             <!--Copyright-link-->
             <p class="footer__copyright--author regular-14--light">Diseñado por
                 <a class="footer__copyright--link regular-14--light" href="#">Juan Fabio Rey</a>
@@ -215,9 +263,11 @@
     </div>
 </div>
 <!--Back-to-top-button-->
-<div class="back-to-top__button">
-    <i class='bx bx-arrow-back bx-lg bx-rotate-90' ></i>
-</div>
+<a href="#">
+    <div class="back-to-top__button">
+        <i class='bx bx-arrow-back bx-lg bx-rotate-90' ></i>
+    </div>
+</a>
 
 </body>
 </html>

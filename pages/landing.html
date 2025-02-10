@@ -26,7 +26,9 @@
         <div class="header-top-bar">
             <!--Branding-wrapper-->
             <div class="header-top-bar__branding--white">
-                <img src="../images/branding-white.png" alt="Logo parque industrial" height="80" width="340"/>
+                <a href="#">
+                    <img src="../images/branding-white.png" alt="Logo parque industrial" height="80" width="340"/>
+                </a>
             </div>
             <!--Navigation-bar-wrapper-->
             <div class="header-top-bar__nav">
@@ -626,7 +628,7 @@
                 <h4 class="contact-info__content--title bold-20--dark">E-Mail</h4>
                 <!--information-->
                 <p class="contact-info__content--text medium-16--dark">
-                    empresa@tresarroyos.gov.ar <br> parque industrial3a.com.ar
+                    parqueindustrial@tresarroyos.gov.ar
                 </p>
             </div>
         </div>
@@ -654,7 +656,10 @@
             <div class="footer__institution">
                 <!--Footer-branding-wrapper-->
                 <div class="footer__branding--white">
-                    <img src="../images/branding-white.png" height="80" width="340"/></div>
+                    <a href="../pages/landing.html">
+                        <img src="../images/branding-white.png" height="80" width="340"/>
+                    </a>
+                </div>
                 <!--Footer-subtitle-wrapper-->
                 <div class="footer__strapline regular-18--light">
                     <p>
@@ -789,7 +794,12 @@
         <!--Copyright-wrapper-->
         <div class="footer__copyright">
             <!--Copyright-text-->
-            <h6 class="footer__copyright--text semibold-16--light">@ 2024 Municipalidad de Tres Arroyos.</h6>
+            <h6 class="footer__copyright--text semibold-16--light">
+                <script type="text/javascript">
+                    year=new Date().getFullYear();
+                    document.write("© " + year + " Municipalidad de Tres Arroyos.");
+                </script>
+            </h6>
             <!--Copyright-link-->
             <p class="footer__copyright--author regular-14--light">Diseñado por
                 <a class="footer__copyright--link regular-14--light" href="#">Juan Fabio Rey</a>
@@ -798,9 +808,11 @@
     </div>
 </div>
 <!--Back-to-top-button-->
+<a href="#">
 <div class="back-to-top__button">
     <i class='bx bx-arrow-back bx-lg bx-rotate-90' ></i>
 </div>
+</a>
 
 </body>
 </html>
