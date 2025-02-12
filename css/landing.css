@@ -246,10 +246,21 @@
 
 .our-solutions__card--half {
     max-width: 364px;
+    transition: all .3s ease-in-out;
 }
+
+.our-solutions__card--half:hover {
+    transform: scale(1.06);
+}
+
 
 .our-solutions__card--full {
     max-width: 754px;
+    transition: all .3s ease-in-out;
+}
+
+.our-solutions__card--full:hover {
+    transform: scale(1.06);
 }
 
 .our-solutions__card-content {
@@ -397,6 +408,11 @@
 .testimonials__photo {
     border: 5px solid var(--white-color);
     border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+.testimonials__photo:hover {
+    transform: scale(1.2);
 }
 
 .testimonials__swiper-bullets {
@@ -510,6 +526,12 @@
 
 .our-clients__logo {
     /* dummy-property: value */
+    transition: all .3s ease-in-out;
+}
+
+.our-clients__logo:hover {
+    /* dummy-property: value */
+    transform: scale(1.2);
 }
 
 .our-clients__buttons-wrapper {
@@ -545,6 +567,19 @@
 
 .you-are-here__icon {
     padding-top: 200px;
+    margin-left: 75px;
+    display: inline-block;
+    position: relative;
+    animation: bump 0.4s linear infinite alternate;
+}
+
+@keyframes bump {
+    0% {
+        transform: translate(-50%, 15px);
+    }
+    100% {
+        transform: translate(-50%, -15px);
+    }
 }
 
 .you-are-here__text {

@@ -21,6 +21,11 @@
     margin-top: 56px;
     border-radius: 12px;
     background-color: var(--white-color);
+    transition: all .3s ease-in-out;
+}
+
+.contact-info__card:hover {
+    transform: scale(1.1);
 }
 
 .contact-info__content {
@@ -115,6 +120,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .3s ease-in-out
+}
+
+.footer__socials:hover {
+    transform: scale(1.3);
 }
 
 /* Footer Recent News leads Column
@@ -130,6 +140,11 @@
 
 .footer__recent-news--wrapper {
     /* dummy-property: value */
+    transition: all .3s ease-in-out;
+}
+
+.footer__recent-news--wrapper:hover {
+    transform: scale(1.1);
 }
 
 .footer__recent-news--lead {
@@ -172,10 +187,12 @@
 
 .footer__site-map--link {
     text-decoration: none;
+    transition: all .3s ease-in-out;
 }
 
 .footer__site-map--link:hover {
     color: var(--white-color);
+    transform: scale(1.1);
 }
 
 /* Footer Subscribe Column

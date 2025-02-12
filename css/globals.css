@@ -341,18 +341,24 @@ a {
 
 .link {
     text-transform: uppercase;
+    transition: all .3s ease-in-out;
+
 }
 
 .link:hover {
     color: var(--white-color);
+    transform: scale(1.1);
 }
+
 
 .link-section {
     text-transform: uppercase;
+    transition: all .3s ease-in-out;
 }
 
 .link-section:hover {
     color: var(--tan-color);
+    transform: scale(1.1);
 }
 
 .link--active {
@@ -365,10 +371,11 @@ a {
     background-color: var(--tan-color);
     text-transform: uppercase;
     color: var(--white-color);
+    transition: all .3s ease-in-out;
 }
 
 .cta__filled--tan:hover {
-    background-color: var(--potters-clay-color);
+    transform: scale(1.2);
 }
 
 .cta__filled--green {
@@ -377,38 +384,42 @@ a {
     background-color: var(--jade-green);
     text-transform: uppercase;
     color: var(--white-color);
-
     margin-right: 30px;
+    transition: all .3s ease-in-out;
 }
 
 .cta__filled--green:hover {
-    background-color: var(--parsley-color);
+    transform: scale(1.2);
 }
 
-.cta__outlined--tan {
-    text-transform: uppercase;
-}
+/*.cta__outlined--tan {*/
+/*    text-transform: uppercase;*/
+/*}*/
 
 .cta__outlined--light {
     padding: 15px 35px;
     border: 2px solid var(--white-color);
     text-transform: uppercase;
+    transition: all .3s ease-in-out;
 }
 
 .cta__outlined--light:hover {
-    border: 2px solid var(--potters-clay-color);
-    color: var(--potters-clay-color);
+    /*border: 2px solid var(--potters-clay-color);*/
+    /*color: var(--potters-clay-color);*/
+    transform: scale(1.2);
 }
 
 .cta__outlined--tan {
     padding: 15px 35px;
     border: 2px solid var(--tan-color);
     text-transform: uppercase;
+    transition: all .3s ease-in-out;
 }
 
 .cta__outlined--tan:hover {
-    border: 2px solid var(--potters-clay-color);
-    color: var(--potters-clay-color);
+    /*border: 2px solid var(--potters-clay-color);*/
+    /*color: var(--potters-clay-color);*/
+    transform: scale(1.2);
 }
 
 .cta__link--tan {
@@ -417,9 +428,21 @@ a {
     font-size: 16px;
     font-weight: var(--bold);
     color: var(--tan-color);
+    transition: all .3s ease-in-out;
 }
 
+.cta__link--tan:hover {
+    transform: scale(1.1);
+}
 
+@keyframes scale-up-center {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
 /* ==========================================================================
    Height & Shadows
    ========================================================================== */
