@@ -515,7 +515,7 @@
     margin-top: 24px;
     margin-right: 240px;
     margin-left: 240px;
-    filter: saturate(0) opacity(65%);
+
 }
 
 .our-clients__columns {
@@ -526,11 +526,13 @@
 
 .our-clients__logo {
     /* dummy-property: value */
+    filter: saturate(0) opacity(65%);
     transition: all .3s ease-in-out;
 }
 
 .our-clients__logo:hover {
     /* dummy-property: value */
+    filter: saturate(1) opacity(100%);
     transform: scale(1.2);
 }
 
